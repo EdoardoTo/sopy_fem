@@ -9,15 +9,15 @@
                 "y": 0.0
             },
             {
+                "x": 1.0,
+                "y": 0.0
+            },
+            {
                 "x": 2.0,
                 "y": 0.0
             },
             {
-                "x": 4.0,
-                "y": 0.0
-            },
-            {
-                "x": 6.0,
+                "x": 3.0,
                 "y": 0.0
             }
         ],
@@ -32,18 +32,22 @@
             },
             {
                 "Connectivities": [3, 4],
-                "MaterialId": 2
+                "MaterialId": 3
             }
         ]
     },
     "Materials": [
         {
             "Young": 30000.0e6,
-            "Area": 0.02
+            "Area": 0.66
         },
         {
             "Young": 30000.0e6,
-            "Area": 0.05
+            "Area": 0.443
+        },
+         {
+            "Young": 30000.0e6,
+            "Area": 0.268
         }
         
     ],
@@ -58,24 +62,24 @@
         "Point_Loads": [
             {
                 "Node": 4,
-                "Values": [300.0e3]
+                "Values": [10.0e3]
             }
         ],
         "Line_Loads": [
             {
                 "Node_ini": 1,
                 "Node_end": 2,
-                "qx": 200e3
+                "qx": 16550
             },
             {
                 "Node_ini": 2,
                 "Node_end": 3,
-                "qx": 200e3
+                "qx": 11100
             },
             {
                 "Node_ini": 3,
                 "Node_end": 4,
-                "qx": 200e3
+                "qx": 6725
             }
         ]
     },
