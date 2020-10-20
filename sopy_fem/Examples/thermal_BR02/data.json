@@ -9,15 +9,15 @@
                 "y": 0.0
             },
             {
-                "x": 1.0,
+                "x": 0.05,
                 "y": 0.0
             },
             {
-                "x": 2.0,
+                "x": 0.15,
                 "y": 0.0
             },
             {
-                "x": 3.0,
+                "x": 0.2,
                 "y": 0.0
             }
         ],
@@ -28,11 +28,11 @@
             },
             {
                 "Connectivities": [2, 3],
-                "MaterialId": 1
+                "MaterialId": 2
             },
             {
                 "Connectivities": [3, 4],
-                "MaterialId": 1
+                "MaterialId": 3
             }
         ]
     },
@@ -40,18 +40,27 @@
         {
             "Thermal_Conductivity": 5,
             "Area": 1.0
+        },
+        {
+            "Thermal_Conductivity": 10,
+            "Area": 1.0
+        },
+        {
+            "Thermal_Conductivity": 15,
+            "Area": 1.0
         }
+        
     ],
     "Constraints": [
         {
             "Node": 1,
             "Activation": [1],
-            "Values": [10.0]
+            "Values": [25.0]
         },
         {
             "Node": 4,
             "Activation": [1],
-            "Values": [30.0]
+            "Values": [-20.0]
         }
     ],
     "Postprocess": {
