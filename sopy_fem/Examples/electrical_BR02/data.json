@@ -1,3 +1,4 @@
+
 {
     "ProblemType": "Electrical",
     "AnalysisType": "StaticAnalysis",
@@ -78,14 +79,13 @@
     },
     "Materials": [
         {
-            "Thermal_Conductivity": 0.03,
-            "Area": 0.008
+            "Electrical_Conductivity": 0.03,
+            "Area": 0.0008
         },
         {
-            "Thermal_Conductivity": 0.015,
-            "Area": 0.008
+            "Electrical_Conductivity": 0.015,
+            "Area": 0.0008
         }
-        
     ],
     "Constraints": [
         {
